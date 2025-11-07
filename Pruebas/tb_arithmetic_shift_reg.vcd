@@ -1,0 +1,113 @@
+$date
+	Wed Nov 05 15:59:03 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_arithmetic_shift_reg $end
+$var wire 1 ! Qm1 $end
+$var wire 4 " Q [3:0] $end
+$var reg 1 # clk $end
+$var reg 4 $ data_in [3:0] $end
+$var reg 1 % load $end
+$var reg 1 & rst $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 4 ' data_in [3:0] $end
+$var wire 1 % load $end
+$var wire 1 & rst $end
+$var reg 4 ( Q [3:0] $end
+$var reg 1 ! Qm1 $end
+$upscope $end
+$scope begin stimulus $end
+$var integer 32 ) csv [31:0] $end
+$var integer 32 * step [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx *
+b10000000000000000000000000000011 )
+b0 (
+b0 '
+1&
+0%
+b0 $
+0#
+b0 "
+0!
+$end
+#5
+1#
+#10
+0#
+#15
+1#
+#20
+0&
+0#
+#21
+b110 $
+b110 '
+1%
+#25
+b110 "
+b110 (
+1#
+#26
+0%
+b1 *
+#30
+0#
+#35
+b11 "
+b11 (
+1#
+#36
+b10 *
+#40
+0#
+#45
+b1 "
+b1 (
+1!
+1#
+#46
+b1010 $
+b1010 '
+1%
+b11 *
+#50
+0#
+#55
+0!
+b1010 "
+b1010 (
+1#
+#56
+0%
+b100 *
+#60
+0#
+#65
+b1101 "
+b1101 (
+1#
+#66
+b101 *
+#70
+0#
+#75
+b1110 "
+b1110 (
+1!
+1#
+#76
+b110 *

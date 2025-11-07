@@ -1,0 +1,7 @@
+step,label,Q_bin,Q_signed,Qm1
+1,load_pos,0110,6,0
+2,shift1_pos,0011,3,0
+3,shift2_pos,0001,1,1
+4,load_neg,1010,-6,0
+5,shift1_neg,1101,-3,0
+6,shift2_neg,1110,-2,1
